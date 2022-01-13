@@ -8,10 +8,10 @@
 // palindrome("abcdefg") === false
 
 // Effective method
-// function palindrome(str) {
-// 	const reversed = str.split("").reverse().join("");
-// 	return str === reversed;
-// }
+function palindrome(str) {
+	const reversed = str.split("").reverse().join("");
+	return str === reversed;
+}
 
 // Every method
 function palindrome(str) {
